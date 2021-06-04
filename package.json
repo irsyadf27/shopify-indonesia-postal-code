@@ -1,0 +1,17 @@
+{
+  "name": "shopify-indonesia-postal-code",
+  "version": "1.0.0",
+  "description": "Shopify Indonesial postal code validation",
+  "main": "index.js",
+  "repository": "https://github.com/irsyadf27/shopify-indonesia-postal-code.git",
+  "author": "irsyadf27 <irsyad.fauzan777@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "BABEL_ENV=production babel src/zip_validation1.js --out-file dist/zip_validation1.min.js --source-maps",
+    "build2": "BABEL_ENV=production babel src/zip_validation2.js --out-file dist/zip_validation2.min.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.5.1"
+  }
+}
